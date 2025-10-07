@@ -25,34 +25,40 @@
 
     <header>
 
-        <form>
+        <form class="searchform">
 
-            <input type="search" placeholder="Enter a city..." required />
+            <input type="search" placeholder="Enter a city..." required  class="searchform-input"/>
 
-            <input type="submit" value="search"/>
+            <input type="submit" value="search" class="searchform-btn"/>
 
         </form>
 
     </header>
 
-    <main>
+    <main> 
 
-    <div>
+        <div class="weatherapp-data">
+            <div>
 
-        <h1>Paris</h1>
+                <h1>Paris</h1>
 
-        <p>
-            Tuesday, 11:11, scattered clouds
-            <br>
-            humidity:66%, wind 3.13 km/h
-        </p>
+                <p>
+                   <span class="day">Tuesday</span> , <span class="time">11:11</span>,  <span class="condition">scattered clouds</span>
+                    <br>
+                    humidity: <span class="humidity">66%</span>, wind : <span class="wind">3.13 km/h</span>
+                </p>
 
-    </div>
+            </div>
 
-        <div>
-            ⛅12°C
+               
+                  <div class="temp">
+                    <span class="icon">⛅ </span>
+                     <span class="c">12</span>
+                     <span class="cc">°C</span>
+                    </div> 
+                
         </div>
-  
+    
     </main>
 
 

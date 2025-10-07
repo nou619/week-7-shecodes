@@ -1,5 +1,5 @@
-h1{
-    color:pink;
+html{
+    background-color: rgb(255, 240, 245);
 }
 .weatherapp{
     background: whitesmoke;
@@ -10,4 +10,66 @@ h1{
     border-radius: 10px;
     font-family: "Roboto", sans-serif;
 }
+header{
+    border-bottom: 1px solid rgb(182, 115, 161,0.3);
+    padding: 30px 0;
+}
+a{
+    color: rgb(156, 113, 155);
+    text-decoration: none;
+}
+.searchform-input{
+    background-color:rgb(246, 209, 209);
+    border:none;
+    border-radius:5px;
+    padding:8px;
+    width:85%;
+}
+.searchform-btn{
+    background-color: rgb(156, 113, 155);
+    border:none;
+    padding:9px 20px;
+    color: white;
+    
+    border-radius: 10px;
+}
+.weatherapp-data{
+    display:flex;
+    justify-content: space-between;
+}
+main{
+    padding: 30px 0;
+}
+h1{
+    margin: 0;
+    line-height: 30px;
+    color: rgb(200, 39, 133);
+}
+p{
+    color: gray;
+}
+.humidity,.wind,.time{
 
+    color: rgb(200, 39, 133);
+}
+.c{
+    color: rgb(200, 39, 133);
+    font-size: 88px;
+}
+.temp{
+    display: flex;
+}
+.icon{
+    font-size: 44px;
+    margin-top: 22px;
+}
+.cc{
+    color: rgb(200, 39, 133);
+    font-size: 28px;
+    margin-top:25 px;
+}
+footer{
+    border-top: 1px solid rgb(182, 115, 161,0.3);
+    padding: 30px 0 0 0;
+    color:pink;
+}
